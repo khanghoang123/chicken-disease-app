@@ -59,8 +59,8 @@ if option == "📤 Tải lên từ thiết bị":
         "🌟 Tải lên ảnh (JPG, PNG, JPEG)", type=["jpg", "png", "jpeg"])
     if uploaded_file:
         image = Image.open(uploaded_file).convert('RGB')
-elif option == "Chụp ảnh bằng camera":
-    camera_file = st.camera_input("📸 Chụp ảnh bằng camera")
+elif option == "📷 Chụp ảnh bằng camera":
+    camera_file = st.camera_input("📷 Chụp ảnh bằng camera")
     if camera_file:
         image = Image.open(camera_file).convert('RGB')
 
