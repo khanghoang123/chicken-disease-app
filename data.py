@@ -45,32 +45,32 @@ disease_info = {
     },
     "New Castle Disease": {
         "name": "	Bệnh Newcastle - Gà rù",
-        # "description": (
-        #     "Bệnh cầu trùng là một trong những bệnh phổ biến và nguy hiểm trên gia cầm, "
-        #     "do các loại ký sinh trùng thuộc giống Eimeria gây ra. Bệnh thường xuất hiện nhiều ở gia cầm non, "
-        #     "đặc biệt trong các điều kiện nuôi nhốt đông đúc hoặc môi trường vệ sinh kém."
-        # ),
-        # "causes": (
-        #     "- Do các loại cầu trùng thuộc giống *Eimeria*, đặc biệt là *Eimeria tenella*.\n"
-        #     "- Lây lan qua phân, thức ăn, nước uống nhiễm ký sinh trùng.\n"
-        #     "- Môi trường ẩm ướt, mật độ chăn nuôi cao là yếu tố thuận lợi để bệnh bùng phát."
-        # ),
+        "description": (
+            "Bệnh cầu trùng là một trong những bệnh phổ biến và nguy hiểm trên gia cầm, "
+            "do các loại ký sinh trùng thuộc giống Eimeria gây ra. Bệnh thường xuất hiện nhiều ở gia cầm non, "
+            "đặc biệt trong các điều kiện nuôi nhốt đông đúc hoặc môi trường vệ sinh kém."
+        ),
+        "causes": (
+            "- Do các loại cầu trùng thuộc giống *Eimeria*, đặc biệt là *Eimeria tenella*.\n"
+            "- Lây lan qua phân, thức ăn, nước uống nhiễm ký sinh trùng.\n"
+            "- Môi trường ẩm ướt, mật độ chăn nuôi cao là yếu tố thuận lợi để bệnh bùng phát."
+        ),
         "symptoms": (
             "Kém ăn bỏ ăn, lông xù, sã cánh ỉa  chảy phân xanh, phân vàng, mào thâm."
             "Chảy nước mắt nước mũi."
             "Diều càng phồng nước và thức ăn, khi dốc ngược gà xuống dưới thấy có nước chảy ra."
         ),
-        # "damage": (
-        #     "- Làm suy yếu sức khỏe của gia cầm, giảm năng suất chăn nuôi.\n"
-        #     "- Tăng chi phí điều trị và phòng bệnh.\n"
-        #     "- Ảnh hưởng nghiêm trọng đến chất lượng thịt và trứng.\n"
-        # ),
-        # "prevention": (
-        #     "- Phòng bệnh bằng thuốc: Dùng thuốc trộn vào thức ăn hoặc nước uống để khống chế bệnh cầu trùng bộc phát như đã trình bày ở trên.\n"
-        #     "- Sử dụng thức ăn, nước uống sạch và tránh nhiễm bẩn từ phân.\n"
-        #     "- Nuôi trên nền thì phải có lớp độn chuồng hút ẩm và khô ráo, chuồng phải thông thoáng, không bị lạnh hoặc quá nóng.\n"
-        #     "- Sau mỗi đợt nuôi phải làm vệ sinh và sát trùng chuồng trại với một trong các thuốc như BIO-GUARD, BIODINE, BIOXIDE hoặc BIOSEPT, sau đó thay lớp độn chuồng mới\n"
-        # ),
+        "damage": (
+            "- Làm suy yếu sức khỏe của gia cầm, giảm năng suất chăn nuôi.\n"
+            "- Tăng chi phí điều trị và phòng bệnh.\n"
+            "- Ảnh hưởng nghiêm trọng đến chất lượng thịt và trứng.\n"
+        ),
+        "prevention": (
+            "- Phòng bệnh bằng thuốc: Dùng thuốc trộn vào thức ăn hoặc nước uống để khống chế bệnh cầu trùng bộc phát như đã trình bày ở trên.\n"
+            "- Sử dụng thức ăn, nước uống sạch và tránh nhiễm bẩn từ phân.\n"
+            "- Nuôi trên nền thì phải có lớp độn chuồng hút ẩm và khô ráo, chuồng phải thông thoáng, không bị lạnh hoặc quá nóng.\n"
+            "- Sau mỗi đợt nuôi phải làm vệ sinh và sát trùng chuồng trại với một trong các thuốc như BIO-GUARD, BIODINE, BIOXIDE hoặc BIOSEPT, sau đó thay lớp độn chuồng mới\n"
+        ),
         "treatment": (
             "- Khi cá thể gà đầu tiên có dấu hiệu mắc bệnh nhanh chóng đưa vaccin Lasota vào cho toàn đàn gà.\n"
             "- Sau đó tiến hành vệ sinh khử trùng chuồng trại máng ăn, máng uống, môi trường xung quanh.\n"
@@ -110,7 +110,19 @@ disease_info = {
             "- Dùng kháng sinh cho gia cầm, tuy nhiên tình trạng kháng kháng sinh ngày càng gia tăng.\n"
             "- Cần có các biện pháp kiểm tra nghiêm ngặt và tiêu chuẩn rõ ràng trong ngành chăn nuôi gia cầm.\n"
         )
-    }
+    },
+    "Healthy": {
+    "name": "Phân bình thường (Không phát hiện bệnh)",
+    "description": (
+        "Phân gà không có biểu hiện của bệnh lý. Phân có dạng đặc, màu nâu sẫm hoặc trắng nhẹ là bình thường. "
+        "Không thấy có dấu hiệu như phân lỏng, lẫn máu, hoặc mùi hôi bất thường."
+    ),
+    "treatment": (
+        "- Không cần điều trị.\n"
+        "- Tiếp tục duy trì môi trường chăn nuôi sạch sẽ, chế độ ăn uống hợp lý.\n"
+        "- Theo dõi định kỳ để phát hiện sớm nếu có thay đổi bất thường về phân hoặc sức khỏe gia cầm."
+    )
+}
 }
 info = disease_info['Coccidiosis']
 # if 'causes' in info:
